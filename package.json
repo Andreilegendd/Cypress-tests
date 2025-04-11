@@ -1,0 +1,21 @@
+{
+  "name": "eesti-ee-cypress-tests",
+  "version": "1.0.0",
+  "description": "Cypress tests for testing the eesti.ee website functionality",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "e2e"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  }
+}
