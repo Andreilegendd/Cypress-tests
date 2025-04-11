@@ -2,18 +2,6 @@
 
 This repository contains Cypress tests for testing the eesti.ee website functionality.
 
-## Setup Instructions
-
-1. Install dependencies:
-```bash
-npm install
-```
-
-2. Open Cypress:
-```bash
-npx cypress open
-```
-
 ## Test Structure
 
 The tests are organized into the following categories:
@@ -21,7 +9,6 @@ The tests are organized into the following categories:
 1. **Homepage Tests** (`01-homepage.cy.js`):
    - Checking if the page loads correctly
    - Verifying search bar visibility and functionality
-   - Checking main menu items
 
 2. **Search Functionality Tests** (`02-search.cy.js`):
    - Testing search with "Eesti hümn" query
